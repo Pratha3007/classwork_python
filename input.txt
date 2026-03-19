@@ -1,0 +1,4 @@
+[{"a":15,"b":20,"c":[40,30]}]
+ Addition: 35
+ Subtraction: 10
+ Multipliaction: 1200

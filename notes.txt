@@ -1,0 +1,31 @@
+fs-File system module (var fs = require('fs');)
+pela require krvnau
+2 types: Sync and Async
+by default async hoi
+
+
+Create file – writeFile() / writeFileSync()
+Creates a new file or overwrites an existing file.
+
+Read file – readFile() / readFileSync()
+Reads the contents of a file.
+
+Append file – appendFile() / appendFileSync()
+Adds data to an existing file.
+
+Rename file – rename() / renameSync()
+Renames a file or directory.
+
+Delete file – unlink() / unlinkSync()
+Deletes a file.
+
+Create directory – mkdir() / mkdirSync()
+Creates a new directory.
+
+Remove directory – rmdir() / rmdirSync()
+Removes a directory.
+
+Copy file – copyFile() / copyFileSync()
+Copies a file's data to another file
+
+callback na under bo badha call back-->callback hell
