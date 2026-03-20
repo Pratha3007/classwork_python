@@ -1,0 +1,23 @@
+https://docs.docker.com/desktop/release-notes/#430
+Write a nodejs program load a simple html file on nodejs web server and print its content as html content.
+
+Write a nodejs program which fetch filename from requested url and print that file’s data on http web server. (Async)
+
+Write a nodejs script to print query string of url on console as well as on file using ES6 callback. 
+
+
+Create HTTP webpage on which Home page display “Welcome to Log in page” in blue color and font size must be 32px, Login page shows one HTML file from static URL having Form with detail for Username, Password, submit and reset button, Gallery page reflect one Image “hello.jpg” and any other page shows “Page Not found”. Write all necessary files to perform task. (Image already exist in same folder)
+
+
+·   	Write node js script to fetch values from url given below and display output as asked.
+"https://www.google.com/exam.txt?c1=Hello&c2=FSD2 T1 Test&c3=Welcome to LJU#AllTheBest"
+  1) Data must be written as below in file named “exam.txt”. File name must be fetched from the url given above.
+          	Output:
+          	Hello!
+          	Welcome to LJU FSD2 T1 Test
+          	#AllTheBest
+  2) Read content from file “exam.txt” and send response to server and display data in “/”  page in same format as above  
+
+       but in H1 tag and in red color.
+  3) If any other page is requested it shows “Page not found” message in plain text.
+
