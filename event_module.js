@@ -230,10 +230,14 @@ console.log("Task-9==========")
 
 fs=require("fs")
 ee.on("mkdir",()=>{
-    if(fs)
-    fs.mkdirSync("Test")
-    console.log("mkdir done")
-    ee.emit("write")
+    if(!fs.existsSync("Test")){
+        fs.mkdirSync("Test")
+        console.log("mkdir done")
+        ee.emit("write")
+    }
+    else{
+        console.log("Already exists dir")
+    }
 })
 ee.on("write",()=>{
     fs.writeFileSync("Test/abc.txt","Hello abc")
